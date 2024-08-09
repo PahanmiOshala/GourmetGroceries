@@ -1,4 +1,4 @@
-/* General Styles */
+
 body {
   font-family: 'Arial', sans-serif;
   background-color: #f4f4f4;
@@ -6,7 +6,7 @@ body {
   padding: 0;
 }
 
-/* Checkout Container Styles */
+
 .checkout-container {
   max-width: 800px;
   margin: 20px auto;
@@ -16,13 +16,12 @@ body {
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-/* Heading Styles */
+
 h1 {
   text-align: center;
   color: #333333;
 }
 
-/* Form Group Styles */
 .form-group {
   margin-bottom: 15px;
 }
@@ -45,7 +44,7 @@ h1 {
   resize: vertical;
 }
 
-/* Button Styles */
+
 .button {
   display: block;
   width: 100%;
@@ -66,7 +65,6 @@ h1 {
   transform: scale(1.05);
 }
 
-/* Thank You Message Styles */
 .thank-you-message {
   display: none;
   text-align: center;

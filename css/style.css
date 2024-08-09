@@ -1,4 +1,4 @@
-/* General Styles */
+
 body {
   font-family: 'Archivo', sans-serif;
   background-color: #f5f5f5;
@@ -11,13 +11,13 @@ body {
   height: auto;
 }
 
-/* Header Styles */
+
 header {
-  background: linear-gradient(135deg, #ff4081 0%, #f50057 100%);
-  color: white;
+  background: linear-gradient(135deg, #f38eb0 0%, #f388ae 100%);
+  color: rgb(255, 255, 255);
   text-align: center;
   padding: 20px;
-  border-radius: 0 0 20px 20px; /* Curved bottom corners */
+  border-radius: 0 0 20px 20px; 
 }
 
 header h1 {
@@ -26,7 +26,7 @@ header h1 {
   font-weight: bold;
 }
 
-/* Category Section Styles */
+
 .category-buttons {
   display: flex;
   justify-content: center;
@@ -53,7 +53,7 @@ header h1 {
   box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
 }
 
-/* Container Styles */
+
 .container {
   display: flex;
   flex-wrap: wrap;
@@ -63,39 +63,38 @@ header h1 {
   gap: 20px;
 }
 
-/* Sidebar Styles */
-/* Button Styles in Sidebar */
+
 .sidebar button {
   display: block;
   width: 100%;
   padding: 15px;
   margin-bottom: 10px;
-  background-color: #ff6f61; /* Solid background color */
-  color: white;
+  background-color: #ee9797; 
+  color: rgb(29, 25, 25);
   border: none;
   cursor: pointer;
-  border-radius: 25px; /* More rounded corners */
+  border-radius: 25px; 
   font-size: 16px;
   font-weight: bold;
   text-transform: uppercase;
-  transition: transform 0.3s, box-shadow 0.3s; /* No background transition */
+  transition: transform 0.3s, box-shadow 0.3s; 
   box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
 }
 
 .sidebar button:hover {
-  transform: scale(1.05); /* Slightly scales up on hover */
+  transform: scale(1.05); 
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
 }
 
-/* Optional: Add a subtle hover effect */
+
 .sidebar button:focus {
   outline: none;
-  box-shadow: 0 0 0 3px rgba(255, 105, 97, 0.5); /* Focus ring for accessibility */
+  box-shadow: 0 0 0 3px rgba(255, 105, 97, 0.5); 
 }
 
 
 
-/* Content Styles */
+
 .content {
   flex: 3;
   padding: 20px;
@@ -104,10 +103,9 @@ header h1 {
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   display: flex;
   flex-direction: column;
-  align-items: center; /* Centering products */
+  align-items: center; 
 }
 
-/* Product Section Styles */
 .product-section {
   display: none;
 }
@@ -200,17 +198,16 @@ header h1 {
   border: 1px solid #e0e0e0;
 }
 
-/* Cart Heading Styles */
 .cart h2 {
   margin-bottom: 20px;
   font-size: 24px;
   font-weight: 600;
   color: #333333;
-  border-bottom: 2px solid #007bff; /* Add a border to highlight the heading */
+  border-bottom: 2px solid #007bff;
   padding-bottom: 10px;
 }
 
-/* Cart Table Styles */
+
 .cart table {
   width: 100%;
   border-collapse: separate;
@@ -225,7 +222,7 @@ header h1 {
 }
 
 .cart table th {
-  background-color: #007bff;
+  background-color: #05366b;
   color: #ffffff;
   font-weight: 600;
 }
@@ -236,24 +233,24 @@ header h1 {
 }
 
 .cart table tr:nth-child(even) td {
-  background-color: #f2f2f2; /* Zebra stripe effect for even rows */
+  background-color: #f2f2f2; 
 }
 
 .cart table tr:last-child td {
-  border-bottom: none; /* Remove border from last row */
+  border-bottom: none; 
 }
 
-/* Cart Total Price Styles */
+
 .cart #total-price {
   font-size: 20px;
   font-weight: 600;
-  color: #007bff;
+  color: #062444;
   margin-top: 20px;
   border-top: 2px solid #007bff;
   padding-top: 10px;
 }
 
-/* Cart Buttons Styles */
+
 .cart button {
   display: block;
   width: 100%;
@@ -274,7 +271,7 @@ header h1 {
   box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
 }
 
-/* Buy Now Button */
+
 #checkout-button {
   background: linear-gradient(135deg, #28a745 0%, #218838 100%);
   color: white;
@@ -284,7 +281,6 @@ header h1 {
   background: linear-gradient(135deg, #218838 0%, #28a745 100%);
 }
 
-/* Clear Cart Button */
 .clear-cart-button {
   background: linear-gradient(135deg, #dc3545 0%, #c82333 100%);
   color: white;
@@ -294,7 +290,7 @@ header h1 {
   background: linear-gradient(135deg, #c82333 0%, #dc3545 100%);
 }
 
-/* Buy Now Button */
+
 #checkout-button {
   background: linear-gradient(135deg, #ff5722 0%, #ff9800 100%);
   color: white;
@@ -307,7 +303,7 @@ header h1 {
   background: linear-gradient(135deg, #ff9800 0%, #ff5722 100%);
 }
 
-/* Clear Cart Button */
+
 .clear-cart-button {
   background: linear-gradient(135deg, #d32f2f 0%, #f44336 100%);
   color: white;
@@ -319,7 +315,6 @@ header h1 {
   background: linear-gradient(135deg, #f44336 0%, #d32f2f 100%);
 }
 
-/* Category Tables */
 .category-table {
   width: 100%;
   border-collapse: collapse;
@@ -343,7 +338,6 @@ header h1 {
   color: #333333;
 }
 
-/* Responsive Styles */
 @media (max-width: 768px) {
   a {
     display: flex;
